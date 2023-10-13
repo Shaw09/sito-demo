@@ -1,3 +1,20 @@
 a {
     text-decoration: none;
 }
+
+#paragrafo {
+    color: #000;
+}
+
+.rosso {
+    color: red;
+    text-transform: lowercase;
+}
+
+.grassetto {
+    font-weight: bold;
+}
+
+.maiuscolo {
+    text-transform: uppercase;
+}
