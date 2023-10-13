@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Titolo di Esempio</title>
+
+        <style>
+            h1 {
+                color: red;
+            }
+        </style>
+        <script type="text/javascript" src="file.js"></script>
+        <script type="text/javascript">
+            alert('sono nel tag');
+        </script>
+        <noscript>
+            Abilitare il browser per far funzionare la web app
+        </noscript>
+    </head>
+    <body>
+        <h1>Titolo della Pagina</h1>
+
+        <div style="float: left; width: 50%; border: 1px solid red;">
+            <a href="chi-sono.html" title="Vai alla pagina">Vai alla pagina chi sono</a><br>
+            <a href="chi-sono.html" title="Vai alla pagina" target="_blank">Vai alla pagina chi sono (Nuovo tab)</a><br>
+        </div>
+        <div style="">
+            altro div
+        </div>
+        <div style="clear: both;"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Cognome</th>
+                    <th>Email</th>
+                    <th>Importo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Paolo</td>
+                    <td>Preite</td>
+                    <td>info@test.it</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Paolo</td>
+                    <td>Preite</td>
+                    <td>info@test.it</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Paolo</td>
+                    <td>Preite</td>
+                    <td>info@test.it</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Totale</td>
+                    <td>80</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+
+        <ul>
+            <li>
+                <a href="chi-sono.html" title="Vai alla pagina">Paragrafo 1</a>
+            </li>
+            <li>
+                <a href="chi-sono.html" title="Vai alla pagina">Paragrafo 2</a>
+            </li>
+            <li>
+                <a href="chi-sono.html" title="Vai alla pagina">Paragrafo 3</a>
+            </li>
+        </ul>
+        <br>
+        <ol>
+            <li value="1">Paragrafo 1</li>
+            <li>Paragrafo 2</li>
+            <li>Paragrafo 3</li>
+        </ol>
+
+        <h2>Form GET</h2>
+        <form name="formEsempio" method="GET">
+            <img src="images/googlelogo_light_color_272x92dp.png" alt="L`immagine non è disponibile" />
+            <!--img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="L`immagine non è disponibile" /-->
+
+            <!--iframe src="http://www.paolopreite.it" width="800"></iframe-->
+            
+            <fieldset>
+                <legend>Dati anagrafici</legend>
+                <label for="nome">Inserire il nome</label>
+                <input type="text" name="nome" value="" /><br>
+
+                <label for="cognome">Inserire il cognome</label>
+                <input type="text" name="cognome" value="" /><br>
+            </fieldset>
+            <label for="iscriviti">Selezionare per iscriversi alla newsletter</label>
+            <input type="checkbox" name="iscriviti" value="ok" /><br>
+
+            <label for="sesso">Sesso</label>
+            <input type="radio" name="sesso" value="M" />
+            <input type="radio" name="sesso" value="F" /><br>
+
+            <label for="messaggio">Messaggio</label>
+            <textarea rows="10" cols="50" name="messaggio"></textarea><br>
+
+            <label for="ruoloAziendale">Ruolo Aziendale</label>
+            <select name="ruoloAziendale">
+                <optgroup label="Impiegato">
+                    <option value="1">Impiegato 1</option>
+                    <option value="2">Impiegato 2</option>
+                </optgroup>
+                <optgroup label="Dirigente">
+                    <option value="f1">Fascia 1</option>
+                    <option value="f2">Fascia 2</option>
+                </optgroup>
+            </select><br>
+
+            <label for="regione">Regione di appartenenza</label>
+            <select name="regione">
+                <option value="1">Lazio</option>
+                <option value="2">Puglia</option>
+                <option value="3">Toscana</option>
+                <option value="4">Valle d`Aosta</option>
+            </select><br>
+
+            <button name="invia" type="submit" value="invia">Invia</button>
+            <button name="annulla" type="button">Annulla</button>
+        </form>
+        
+        <h2>Form POST</h2>
+        <form name="formEsempio" method="POST">
+            <input type="text" name="nome" value="" /><br>
+            <input type="text" name="cognome" value="" /><br>
+            <input type="checkbox" name="iscriviti" value="ok" /><br>
+            <input type="radio" name="sesso" value="M" />
+            <input type="radio" name="sesso" value="F" /><br>
+            <button name="invia" type="submit" value="invia">Invia</button>
+            <button name="annulla" type="button">Annulla</button>
+        </form>
+
+        <p>
+            Lorem Ipsum...<br>
+            Testo di Esempio
+        </p>
+        <h2>Titolo 2</h2>
+        <p>
+            Lorem Ipsum...<br>
+            Testo di Esempio <abbr title="HyperText Markup Language">HTML</abbr><hr>
+            Lorem Ipsum...<br>
+            Testo di Esempio
+
+            <code>
+                public void getString() {<br>
+                    System.out.println("Hello");<br>
+                }<br>
+            </code>
+            public void getString() {<br>
+                System.out.println("Hello");<br>
+            }<br>
+        </p>
+        <h2>Titolo 3</h2>
+        <p>
+            Lorem Ipsum...<br>
+            Testo di Esempio<hr>
+            Lorem Ipsum...<br>
+            Testo di Esempio<br>
+
+            <del>Articolo 1 abrogato</del>
+            <ins>Articolo 1</ins>
+        </p>
+        <!-- commento HTML inserito -->
+    </body>
+</html>

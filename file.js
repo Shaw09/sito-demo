@@ -1,0 +1,1 @@
+alert('sono nel file.js');
