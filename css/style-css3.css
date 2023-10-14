@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: #c6c6c6;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: #000;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    h1 {
+        color: black;
+    }
+
+    p {
+        color: red;
+    }
+}

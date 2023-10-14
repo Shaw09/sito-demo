@@ -18,3 +18,13 @@ a {
 .maiuscolo {
     text-transform: uppercase;
 }
+
+#div1 {
+    background: red;
+    width: 300px;
+}
+
+#div2 {
+    background: yellow;
+    width: 300px;
+}
